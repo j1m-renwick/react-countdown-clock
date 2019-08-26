@@ -4,7 +4,8 @@
   "description": "HTML5 canvas countdown clock React component",
   "main": "build/react-countdown-clock.js",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "serve": "serve | open index.html -a 'Google Chrome'"
   },
   "repository": {
     "type": "git",
