@@ -62,7 +62,8 @@
       render: function(){
         return (
           React.createElement(ReactCountdownClock, {
-            seconds: this.state.seconds,
+            maxSeconds: 60,
+            seconds: 30,
             color: this.state.color,
             paused: this.state.paused,
             pausedText: "▐▐ ",

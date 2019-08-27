@@ -1,7 +1,7 @@
 {
-  "name": "react-countdown-clock",
-  "version": "2.6.0",
-  "description": "HTML5 canvas countdown clock React component",
+  "name": "@j1m/rcc",
+  "version": "1.0.0",
+  "description": "fork of https://github.com/pughpugh/react-countdown-clock with duration PR added. All credit to Hugh Gallagher <hugh@hcgallagher.co.uk> (http://www.hughgallagher.co.uk/)",
   "main": "build/react-countdown-clock.js",
   "scripts": {
     "build": "webpack -p",
@@ -9,21 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pughpugh/react-countdown-clock"
+    "url": "https://github.com/j1m-renwick/react-countdown-clock"
   },
-  "keywords": [
-    "react-component",
-    "react",
-    "countdown",
-    "timer",
-    "canvas"
-  ],
-  "author": "Hugh Gallagher <hugh@hcgallagher.co.uk> (http://www.hughgallagher.co.uk/)",
+  "keywords": [],
+  "author": "Jim Renwick <peterjrenwick@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pughpugh/react-countdown-clock/issues"
+    "url": "https://github.com/j1m-renwick/react-countdown-clock/issues"
   },
-  "homepage": "https://github.com/pughpugh/react-countdown-clock",
+  "homepage": "https://github.com/j1m-renwick/react-countdown-clock",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
